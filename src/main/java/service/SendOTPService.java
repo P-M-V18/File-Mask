@@ -30,7 +30,7 @@ public class SendOTPService {
         //sending an email is a session.
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "demi szss opqz lkkf");
+                return new PasswordAuthentication(from, "*************");
             }
         });
 
